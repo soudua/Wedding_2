@@ -101,9 +101,7 @@
 .envelope-text span:nth-child(1) { animation-delay: 0.2s; }
 .envelope-text span:nth-child(2) { animation-delay: 0.4s; }
 .envelope-text span:nth-child(3) { animation-delay: 0.6s; }
-.envelope-text span:nth-child(4) { animation-delay: 0.8s; }
-.envelope-text span:nth-child(5) { animation-delay: 1s; }
-.envelope-text span:nth-child(6) { animation-delay: 1.2s; }
+
 
 
 .envelope-text-below {
@@ -135,9 +133,9 @@
   margin-right: 0.35em;  /* ← add this, remove the gap:10px (gap doesn't work on inline elements) */
 }
 
-.envelope-text-below span:nth-child(1) { animation-delay: 1.4s; }
-.envelope-text-below span:nth-child(2) { animation-delay: 1.6s; }
-.envelope-text-below span:nth-child(3) { animation-delay: 1.8s; }
+.envelope-text-below span:nth-child(1) { animation-delay: 0.8s; }
+.envelope-text-below span:nth-child(2) { animation-delay: 1.0s; }
+.envelope-text-below span:nth-child(3) { animation-delay: 1.2s; }
   /* ── Screens ── */
   .screen {
     position: absolute; inset: 0;

@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import frontEnvelope from "./assets/frontenvelope.jpeg";
+import frontEnvelope from "./assets/lastphoto.jpeg";
 import openEnvelope from "./assets/openenvelope.jpeg";
 import "./weddingInvite.css";
 const WEDDING_DATE = new Date("2027-07-03T12:00:00");
@@ -69,9 +69,6 @@ export default function WeddingInvite() {
             draggable={false}
           />
           <div className="envelope-text">
-             <span>Convite</span>
-             <span>de</span>
-             <span>casamento</span>
              <span>Liliana</span>
              <span>&</span>
              <span>Guilherme</span>
